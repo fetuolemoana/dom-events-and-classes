@@ -55,6 +55,9 @@ var allTheDots = document.getElementsByClassName('board')[0].children
     else if (allTheDots[i].classList.contains('green')) {
       totals.green += 1; 
     }
+    else {
+      totals.invisible += 1;
+    }
 }
 
   // Once you've done the counting, this function will update the display
